@@ -47,7 +47,7 @@ function draw() {
     stroke(clr[0],clr[1],clr[2],150);
     // draw the line across the circle;
     line(end1.x,end1.y,end2.x,end2.y);
-    fill(clr[0],clr[1],clr[2]);
+    fill(clr[0],clr[1],clr[2],100);
     //fill(255,0,0);
     ellipse(pt.x,pt.y,10,10);
   }
